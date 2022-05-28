@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(218, 222, 228);
+    font-family: Arial, Helvetica, sans-serif
+} 
+
+.row {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    position: relative;
+    margin: 1rem;
+
+}
+
+.item {
+    position: relative;
+    top: 0;
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 25px;
+    border: 3px solid #000;
+}
+
+.item h3 {
+    color: seashell;
+    text-align: center;
+}
+
+.item p {
+    margin-top: 18px;
+    text-align: justify;
+    font-size: 100%;
+}
+
+.item-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: lightpink;
+    padding: 6px 25px;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#title-one {
+    background-color: coral;
+    width: 125px;
+}
+
+#title-two {
+    background-color: darkslategrey;
+    width: 125px;
+}
+
+#title-three {
+    background-color: mediumaquamarine;
+    width: 125px;
+}
+
+/*
+p {
+    border: 3px solid black;
+    margin: 0;
+}
+*/
+
+/*p1 {
+    float: left;
+    background-color:blueviolet;
+    width: 100px;
+    height: 20px;
+    margin-top: 5;
+    text-align:center;
+    align-items: center;
+    color: seashell;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 6px 90px;
+}
+*/
+
+/*.p2 {
+    background-color: lightcoral;
+    height: 200px;
+    width: 100%;
+    padding-top: 50px;
+}
+*/
+
+
+@media (min-width: 1200px) {
+    .col-lg-3 {
+      float: left;
+      width: 33%;
+    }
+}
+
+@media (min-width: 945px) and (max-width: 1199px) {
+    .col-lg-3 {
+        float: left;
+        width: 50%;
+    }
+
+    .col-lg-4 {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 944px) {
+    .col-lg-3 {
+        float: left;
+        width: 100%;
+    }
+
+}
+
+  
